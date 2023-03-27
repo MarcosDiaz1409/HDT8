@@ -1,6 +1,6 @@
 public interface IPriorityQueue<E>{
 
-    boolean add(E value);
+    void add(E value);
 
     E remove();
 
